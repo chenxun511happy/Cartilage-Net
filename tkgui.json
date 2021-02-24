@@ -1,0 +1,244 @@
+{
+    "LabelFrame":[{
+        "text":"IMAGE pram",
+        "weight":2,
+        "column": 0,
+        "columnspan": 2,
+        "row": 0,
+        "Label":[{
+            "text":"Col X size:",
+            "column": 0,
+            "row": 1
+        },
+        {
+            "text":"Row Y size:",
+            "column": 0,
+            "row": 2
+        },
+            {
+            "text":"Stack Z size:",
+            "column": 0,
+            "row": 3
+        }
+
+        ],
+        "Checkbutton":[{
+            "name":"check",
+            "text":"3d",
+            "column": 1,
+            "row": 0
+        },
+          {
+            "name":"check1",
+            "text":"2d",
+            "column": 0,
+            "row": 0
+        }
+            ],
+        "Entry":[{
+            "name":"entry",
+            "text":"checkbutton",
+            "width":"30",
+            "bg":"gold",
+            "column": 1,
+            "row": 1,
+            "colweight":1,
+            "columnspan": 2
+        },
+            {
+            "name":"entry1",
+            "text":"checkbutton1",
+            "width":"30",
+            "bg":"gold",
+            "column": 1,
+            "row": 2,
+            "colweight":1,
+            "columnspan": 2
+        },
+            {
+            "name":"entry2",
+            "text":"checkbutton2",
+            "width":"30",
+            "bg":"gold",
+            "column": 1,
+            "row": 3,
+            "colweight":1,
+            "columnspan": 2
+        }
+            ]
+    },
+        {
+        "text":"Training Prediction pram",
+        "weight":2,
+        "column": 2,
+        "columnspan": 2,
+        "row": 0,
+        "Label":{
+            "text":"Model Name:",
+            "column": 0,
+            "row": 2
+        },
+        "Checkbutton":[{
+            "name":"check_test",
+            "text":"Train",
+            "column": 1,
+            "row": 0
+        },
+        {
+            "name":"check_test1",
+            "text":"Predict",
+            "column": 0,
+            "row": 0
+        },
+             {
+            "name":"check_test2",
+            "text":"Segment",
+            "column": 0,
+            "row": 1
+        },
+             {
+            "name":"check_test3",
+            "text":"Detection",
+            "column": 1,
+            "row": 1
+        },
+            {
+            "name":"check_test4",
+            "text":"Detection + Classify",
+            "column": 2,
+            "row": 1
+        }
+        ],
+        "Entry":{
+            "name":"entry_test",
+            "text":"checkbutton",
+            "width":"30",
+            "bg":"gold",
+            "column": 1,
+            "row": 2,
+            "colweight":1,
+            "columnspan": 2
+        }
+    },
+    {
+        "text":"Configure Folder pram",
+        "weight":2,
+        "column": 4,
+        "columnspan": 2,
+        "row": 0,
+        "Label":{
+            "text":"Folder Name:",
+            "column": 0,
+            "row": 1
+        },
+        "Checkbutton":[{
+            "name":"check_third",
+            "text":"tiff",
+            "column": 1,
+            "row": 0
+        },
+        {
+            "name":"check_third1",
+            "text":"csv",
+            "column": 0,
+            "row": 0
+        }
+        ],
+        "Entry":{
+            "name":"entry_third",
+            "text":"checkbutton",
+            "width":"30",
+            "bg":"gold",
+            "column": 1,
+            "row": 1,
+            "colweight":1,
+            "columnspan": 2
+        }
+    }
+    ],
+
+    "Entry":[
+                {
+                    "name":"priv",
+                    "disabledforeground":"black",
+                    "state":"disable",
+                    "columnspan":4,
+                    "column":2,
+                    "row":1,
+                    "colweight": 1
+                },
+                {
+                    "name":"pub",
+                    "disabledforeground":"black",
+                    "state":"disable",
+                    "columnspan":4,
+                    "column":2,
+                    "row":2,
+                    "colweight": 1
+                }],
+
+    "Label":[{
+        "name":"model",
+        "text":"Model: ",
+        "column": 0,
+        "row": 3,
+        "weight":2
+        },
+        {"name":"choosefile",
+        "text":"chooseFile for testing: ",
+        "column": 0,
+        "row": 1,
+        "weight":2
+        },
+        {"name":"choosefile1",
+        "text":"chooseFile for training: ",
+        "column": 0,
+        "row": 2,
+        "weight":2
+        }
+    ],
+    "Button":[
+        {
+            "name":"chooseFolder",
+            "text":"IMPORT",
+            "column": 1,
+            "row": 1,
+            "weight": 2
+        },
+        {
+            "name":"chooseFolder1",
+            "text":"IMPORT",
+            "column": 1,
+            "row": 2,
+            "weight": 2
+        },
+        {
+            "name":"cnnwatershed",
+            "text":"CNN + WATERSHED",
+            "column": 1,
+            "row": 3,
+            "weight": 2
+        },
+        {
+            "name":"cnnunet",
+            "text":"CNN + UNET",
+            "column": 2,
+            "row": 3,
+            "weight": 2
+        },
+        {
+            "name":"cnnunetwatershed",
+            "text":"CNN + UNET + WATERSHED",
+            "column": 3,
+            "row": 3,
+            "weight": 2
+        },
+        {
+            "name":"cancel",
+            "text":"Cancel",
+            "column": 1,
+            "row": 4,
+            "weight": 2
+        }
+    ]
+}
